@@ -9,7 +9,6 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
-import cookode.instagram_clone.MainActivity
 import idn.project.instagramclone.R
 import kotlinx.android.synthetic.main.activity_register.*
 

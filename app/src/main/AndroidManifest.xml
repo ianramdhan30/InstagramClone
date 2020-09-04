@@ -15,7 +15,7 @@
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
-        <activity android:name="cookode.instagram_clone.MainActivity">
+        <activity android:name="cookode.instagram_clone.activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

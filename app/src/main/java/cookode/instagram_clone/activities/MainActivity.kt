@@ -1,11 +1,10 @@
-package cookode.instagram_clone
+package cookode.instagram_clone.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import cookode.instagram_clone.activities.AddPostActivity
 import cookode.instagram_clone.fragments.HomeFragment
 import cookode.instagram_clone.fragments.NotificationFragment
 import cookode.instagram_clone.fragments.ProfileFragment
