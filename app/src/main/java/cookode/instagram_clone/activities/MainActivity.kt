@@ -5,11 +5,12 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import cookode.instagram_clone.R
 import cookode.instagram_clone.fragments.HomeFragment
 import cookode.instagram_clone.fragments.NotificationFragment
 import cookode.instagram_clone.fragments.ProfileFragment
 import cookode.instagram_clone.fragments.SearchFragment
-import idn.project.instagramclone.R
+
 
 class MainActivity : AppCompatActivity() {
 

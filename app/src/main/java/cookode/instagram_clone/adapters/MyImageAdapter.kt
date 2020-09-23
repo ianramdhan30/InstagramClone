@@ -6,8 +6,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
+import cookode.instagram_clone.R
 import cookode.instagram_clone.model.Post
-import idn.project.instagramclone.R
+
 
 class MyImageAdapter(private val mContext: Context, mPost: List<Post>)
     : RecyclerView.Adapter<MyImageAdapter.ViewHolder?>() {

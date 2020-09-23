@@ -9,8 +9,10 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
-import idn.project.instagramclone.R
+import cookode.instagram_clone.R
 import kotlinx.android.synthetic.main.activity_register.*
+import java.util.*
+import kotlin.collections.HashMap
 
 class RegisterActivity : AppCompatActivity() {
 
@@ -60,8 +62,8 @@ class RegisterActivity : AppCompatActivity() {
 
         val userMap = HashMap<String, Any>()
         userMap["uid"] = currentUserID
-        userMap["fullname"] = fullname.toLowerCase()
-        userMap["username"] = username.toLowerCase()
+        userMap["fullname"] = fullname.toLowerCase(Locale.ROOT)
+        userMap["username"] = username.toLowerCase(Locale.ROOT)
         userMap["email"] = email
         userMap["bio"] = "Hey Iam student at IDN Boarding School"
         userMap["image"] = "https://firebasestorage.googleapis.com/v0/b/instagram-app-256b6.appspot.com/o/Default%20Images%2Fprofile.png?alt=media&token=ecebab92-ce4f-463c-a16a-a81fc34b0772"

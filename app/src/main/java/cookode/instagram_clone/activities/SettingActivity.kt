@@ -3,7 +3,8 @@ package cookode.instagram_clone.activities
 import android.os.Bundle
 import android.os.PersistableBundle
 import androidx.appcompat.app.AppCompatActivity
-import idn.project.instagramclone.R
+import cookode.instagram_clone.R
+
 
 class SettingActivity : AppCompatActivity() {
 
